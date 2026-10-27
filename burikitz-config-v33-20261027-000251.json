@@ -1,0 +1,75 @@
+{
+  "Version": "33",
+  "ReleaseNotes": "Generated offline config v33",
+  "ReleaseNotes1": "",
+  "Servers": [
+    {
+      "Name": "Maho",
+      "FLAG": "ph.png",
+      "ServerIP": "cas-1.optnl.com",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "ProxyIP": "cas-1.optnl.com",
+      "ProxyPort": "8080",
+      "ServerUser": "opentunnel.net-ristybky20",
+      "ServerPass": "romina616",
+      "sInfo": "Custom Server",
+      "Slowchave": "",
+      "Nameserver": "dns.cas-1.optnl.com",
+      "servermessage": "",
+      "Sfrep": "53",
+      "SlowDNSPort": ""
+    },
+    {
+      "Name": "Kakal",
+      "FLAG": "ph.png",
+      "ServerIP": "cas-1.optnl.com",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "ProxyIP": "cas-1.optnl.com",
+      "ProxyPort": "8080",
+      "ServerUser": "opentunnel.net-ristyboy20",
+      "ServerPass": "romina616",
+      "sInfo": "Custom Server",
+      "Slowchave": "",
+      "Nameserver": "dns.cas-1.optnl.com",
+      "servermessage": "",
+      "Sfrep": "53",
+      "SlowDNSPort": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "Tnt maho",
+      "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.fb.com[crlf]X-Online-Host: m.fb.com[crlf]X-Forward-Host: m.fb.com[crlf]X-Forwarded-For: m.fb.com[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Referer: m.fb.com[crlf][crlf]",
+      "SNI": "",
+      "Slowdns": "",
+      "WebProxy": "cas-1.optnl.com",
+      "WebPort": "8080",
+      "pInfo": "SSH\/PROXY",
+      "isSSL": false,
+      "isInject": true,
+      "isDirect": false,
+      "isSlow": false,
+      "isWeb": true,
+      "isPayloadSSL": false,
+      "isHatok": false
+    },
+    {
+      "Name": "M.fb.com",
+      "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.fb.com[crlf]X-Online-Host: m.fb.com[crlf]X-Forward-Host: m.fb.com[crlf]X-Forwarded-For: m.fb.com[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Referer: m.fb.com[crlf][crlf]",
+      "SNI": "",
+      "Slowdns": "",
+      "WebProxy": "cas-1.optnl.com",
+      "WebPort": "8080",
+      "pInfo": "SSH\/PROXY",
+      "isSSL": false,
+      "isInject": true,
+      "isDirect": false,
+      "isSlow": false,
+      "isWeb": true,
+      "isPayloadSSL": false,
+      "isHatok": false
+    }
+  ]
+}
